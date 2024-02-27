@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- If you need to make comments/notes on your HTML code, use these tags. Anything here wont appear on the web page. --> 
+    <h1>Welcome to CS230 Project Web Page</h1>
+    <img src="https://www.maynoothuniversity.ie/sites/all/themes/nuim_themes/nuim/logo_old_2.png">
+    <div class="section-1">
+        <p>You'll find that there are lots of tags we can use in HTML, but it's only important we remember the most useful ones!</p>
+        <p>The most useful tags are as follows: DOCTYPE html, html, head, body, title, h1, p, img, div, input and button</p>
+
+        <button>This is an example of a button tag!</button>
+        <p style="color: blue">And the following is an example of a input tag for text</p>
+        <input type="text"></input>
+    </div>
+
+    <h2>How is a HTML Document Structured?</h2>
+    <div class="section-2">
+        <p>There are 4 main pieces to each HTML document. The first is the "DOCTYPE" tag, which tells our browser that our document is HTML</p>
+        <p>The next tag, "html", just says that everything inside here is going to be the HTML we want to use on our web page.</p>
+        <p>Next is the head tag, which includes all of the information we need to have before seeing the page (extra styles, fonts, libraries etc.)</p>
+        <p>Finally we have the body tag, which includes all the information we want the user to see on the page.</p>
+    </div>
+
+    <h2>What is CSS?</h2>
+    <div class="section-3">
+        <p>If we consider HTML to give structure to a web page, then we can consider CSS to be how the web page then looks.</p>
+        <p>In CSS, we have a list of styles each of which corresponds to some part of the HTML page. Let's assume these names are called "nametags".</p>
+        <p>To make a CSS style, we use the following format:
+            <code>
+                .nametag {
+                    style: styleType
+                }
+            </code>
+            So for example, we may have a tag like the following, which makes all the text in a section called "description" red.
+            <code>
+                .description {
+                    color: red
+                }
+            </code>
+        </p>
+        <p>We can place the CSS into it's own file, or directly inside the HTML file within some "style" tags inside the "head" tags.</p>
+        <p>To see this in action, inspect the code of this document to try discover why it is that the first section has a red text color.</p>
+        <p>Also to explore the some more CSS styles, try uncommenting the styles at the top of the document and see how they change the web page.</p>
+        <p>Some libraries also include lots of premade styles for us, such as the popular Bootstrap CSS library.</p>
+    </div>
+</body>
+</html>
