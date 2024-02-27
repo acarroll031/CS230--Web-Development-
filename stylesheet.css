@@ -9,6 +9,8 @@
     margin: 0 auto;
     position: relative;
     text-align: center;
+
+    /* Use clip path to create pyramid shape */
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
 
@@ -86,10 +88,11 @@
     color: white;
 }
 
+/* Display buttons when hovering over the section of the pyramid */
 .plevel:hover .butts{
-
     display: inline-block;
 }
+
 .number{
     margin: auto;
     width: 10px;
@@ -102,8 +105,6 @@
     display: inline-block;
 }
 
-
-
 .inputfields{     
     width: 100%;
     margin: auto;
@@ -111,6 +112,7 @@
     font-family: 'Courier New', monospace;
     text-align: center;
 }
+
 .submitbutton{
     background-color: white;
     color: black;
